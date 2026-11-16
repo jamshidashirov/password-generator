@@ -1,3 +1,4 @@
+# Bu mening GitHubdagi birinchi loyiham   
 import random
 import string
 
