@@ -1,7 +1,7 @@
 import secrets
 import string
 
-def generate_password(length=18):
+def generate_password(length=20):
     """Kriptografik jihatdan xavfsiz va murakkab parol yaratuvchi funksiya"""
     characters = string.ascii_letters + string.digits + string.punctuation
     return ''.join(secrets.choice(characters) for _ in range(length))
