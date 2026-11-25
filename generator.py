@@ -8,8 +8,8 @@ def generate_password(length=20):
 
 if __name__ == "__main__":
     try:
-        user_input = input("Parol uzunligini kiriting (standart 16): ").strip()
-        length = int(user_input) if user_input else 16
+        user_input = input("Parol uzunligini kiriting (standart 20): ").strip()
+        length = int(user_input) if user_input else 20
         
         if length < 8:
             print("Ogohlantirish: Xavfsizlik uchun kamida 8 ta belgi tavsiya etiladi.")
